@@ -1,7 +1,7 @@
 {
-  "name": "ext-css",
+  "name": "ext-css-mdndocs",
   "version": "0.1",
-  "description": "foo description here",
+  "description": "print helper for MDN DOCS ",
 
   "icons": {
     "16": "icons/icon16.png",
@@ -14,7 +14,7 @@
     {
 
     "matches" : [
-      "https://example.com/*"
+      "https://developer.mozilla.org/*/docs/*"
       ],
 
     "css" : [

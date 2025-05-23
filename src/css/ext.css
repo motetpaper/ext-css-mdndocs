@@ -1,13 +1,20 @@
 /* ext.css */
 /*
   DEVELOPER NOTES
-  DD Month YYYY
+  23 May 2025
 
   PROBLEM
+  the top navigation bar moves around on the page when printed
+  this blocks important information, especially in
+  articles written for brevity
 
   SOLUTION
+  hide the top navigation to prevent it from blocking important text
 
 */
 @media print {
-  /* css here */
+  /* hides the navigation bar and mdn article actions bar */
+  header.top-navigation, div.article-actions-container {
+    opacity: 0;
+  }
 }
